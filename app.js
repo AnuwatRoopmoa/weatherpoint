@@ -17,7 +17,7 @@ app.use(cors({
         /\.voornaamnaam\.ikdoeict\.be$/, // Matches all subdomains under voornaamnaam.ikdoeict.be
         /^(https?:\/\/)?localhost(:\d+)?$/, // Matches localhost with any port 
         /\.weatherpoint\.onrender\.com$/,
-        /^(https?:\/\/)?sql303.infinityfree.com(:\d+)?$/
+        /^(https?:\/\/)?sql303.byetcluster.com(:\d+)?$/
     ],
     methods: 'GET, POST, PUT, DELETE', // Specify the allowed HTTP methods
     allowedHeaders: 'Content-Type, Authorization' // Specify the allowed request headers
