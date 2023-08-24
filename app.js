@@ -16,7 +16,7 @@ app.use(cors({
     origin: [
         /\.voornaamnaam\.ikdoeict\.be$/, // Matches all subdomains under voornaamnaam.ikdoeict.be
         /^(https?:\/\/)?localhost(:\d+)?$/, // Matches localhost with any port 
-        /\.reviewtest\.onrender\.com$/,
+        /\.weatherpoint\.onrender\.com$/,
         /^(https?:\/\/)?sql303.infinityfree.com(:\d+)?$/
     ],
     methods: 'GET, POST, PUT, DELETE', // Specify the allowed HTTP methods
